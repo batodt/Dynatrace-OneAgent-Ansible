@@ -1,6 +1,6 @@
 galaxy_info:
   author: batodt
-  role_name: dynatrace_oneagent
+  role_name: oneagent
   description: Install Dynatrace OneAgent
   license: Apache-2.0
   min_ansible_version: "2.12"
