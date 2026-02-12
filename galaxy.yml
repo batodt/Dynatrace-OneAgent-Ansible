@@ -1,11 +1,11 @@
 ---
-namespace: dynatrace
+namespace: batodt
 name: oneagent
 version: 1.2.5
 readme: README.md
 authors:
-  - Dynatrace LLC
-description: Module to install and configure Dynatrace OneAgent deployment
+  - batodt
+description: Module to install and configure Dynatrace OneAgent deployment (personal dev version)
 license_file: LICENSE
 tags:
   - dynatrace
@@ -16,7 +16,7 @@ tags:
   - infrastructure
   - linux
   - windows
-repository: https://github.com/Dynatrace/Dynatrace-OneAgent-Ansible
+repository: https://github.com/batodt/Dynatrace-OneAgent-Ansible
 documentation: https://docs.dynatrace.com/docs/setup-and-configuration/dynatrace-oneagent/deployment-orchestration/ansible
 build_ignore:
   - .*
