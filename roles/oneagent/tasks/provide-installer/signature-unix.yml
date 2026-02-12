@@ -1,6 +1,6 @@
 ---
 - name: Check if CA certificate exists
-  delegate_to: localhost
+  # delegate_to: localhost
   ansible.builtin.stat:
     path: "{{ oneagent_ca_cert_src_path }}"
   register: _oneagent_ca_cert_state
